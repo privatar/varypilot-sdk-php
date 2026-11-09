@@ -1,0 +1,29 @@
+{
+  "name": "varypilot/sdk-php",
+  "description": "Varypilot PHP 7.0+ SDK: local assignment, persistent configuration cache and consent-aware batched events",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.0",
+    "ext-hash": "*",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ABPlatform\\": "src/"
+    }
+  },
+  "homepage": "https://docs.varypilot.com/php-sdk",
+  "keywords": [
+    "varypilot",
+    "ab-testing",
+    "experimentation",
+    "php7"
+  ],
+  "support": {
+    "docs": "https://docs.varypilot.com/php-sdk",
+    "issues": "https://github.com/privatar/varypilot-sdk-php/issues",
+    "source": "https://github.com/privatar/varypilot-sdk-php"
+  }
+}
